@@ -1,5 +1,5 @@
 <!-- 1 -->
-# Robust Weight Signatures
+# EMC2
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 The official implementation of paper [Towards Accurate and Efficient 3D Object Detection for Autonomous Driving: A Mixture of Experts Computing System on Edge](https://arxiv.org/abs/2507.04123) [ICCV2025].
@@ -19,32 +19,9 @@ Requirements are provided in ``requirements.txt``.
 <!-- 5 here is training and installation code  -->   
 ## Model Training and Testing
 The model is based on Openpcdet framework. Here is the detail process. 
-<!-- Models preparation - standard models.
-```
-python train_corruption.py \
-    --pretrained --lr 0.01 \
-    --dataset <dataset> --arch <arch> \
-    --data <training data> --std_data <standard data> \
-    --pretrained_path <pre-trained model path> --save_dir <path for checkpoint>
-```
 
-Models preparation - robust models.
-```
-python train_corruption.py \
-    --pretrained --lr 0.01 \
-    --dataset <dataset> --arch <arch> --corruption <corruption type> \
-    --data <training data> --std_data <standard data> \
-    --pretrained_path <pre-trained model path> --save_dir <path for checkpoint>
-```
+<!-- 5.1 Please Add the (1) installation process, (2)    -->   
 
-RWS extraction and Model Patching.
-```
-python model_patching.py --keep_num <num of layers used> --dataset <dataset> --arch <arch> \
-        --corruption <corruption type> --serverity <severity level> --data <std testing data> --corruption_data <corrupted testing data>
-        --corruption_model_root <root to store all robust models> \
-        --base_model <root to base model> --pretrained <root to pretrained model --save_log <path to save log>
-``` -->
-<!-- 6 here is the install and training code  --> 
 ## Citation
 If you find this useful, please cite the following paper:
 ```
