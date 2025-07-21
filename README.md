@@ -61,10 +61,11 @@ The construction methods for the three subsets (e.g., `VEE_dataset.txt`, `APE_da
 
 ### Training Process
 Models training. 
-<pre>python train/train_EMC2.py<pre>
+<pre> python train/train_EMC2.py 
+</pre>
 
 ### Testing Process
-<pre>python test/test_EMC2.py<pre> 
+<pre>python test/test_EMC2.py</pre> 
 
 <!-- You can later load them by updating the dataset INFO_PATH in the config file accordingly. -->
 
