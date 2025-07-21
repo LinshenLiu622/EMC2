@@ -8,18 +8,18 @@ __pycache__/
 # 忽略日志文件
 *.log
 
-# 忽略 VSCode 配置
-.vscode/
+# # 忽略 VSCode 配置
+# .vscode/
 
 # 忽略数据文件
-data/
-*.csv
-*.json
+# data/
+# *.csv
+# *.json
 
 # 忽略模型文件
-*.pt
-*.pth
-checkpoints/
+# *.pt
+# *.pth
+# checkpoints/
 
 # 忽略环境文件
 .env
