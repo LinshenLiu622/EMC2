@@ -22,6 +22,7 @@ This paper presents Edge-based Mixture of Experts (MoE) Collaborative Computing 
 <p align="center">
   <img src="framework.png" width="800"/>
 </p>
+
 *Figure 1: System architecture of EMC2. The central row shows the overall data flow, while the top and bottom illustrate key modules. EMC2 consists of five main components: an Adaptive Multimodal Data Bridge (AMDB) for preprocessing multimodal inputs; a Scenario-Adaptive Dispatcher that selects experts based on contextual cues; and three specialized experts—Latency-Prioritized, Versatile Efficiency, and Accuracy-Prioritized—each optimized for different real-time requirements. An Emergency Expert API handles hazardous or unseen cases.*
 
 
