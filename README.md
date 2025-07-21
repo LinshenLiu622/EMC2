@@ -43,7 +43,7 @@ pip install -r requirements.txt -->
 
 <!-- 5 here is training and installation code  -->   
 ## Model Training and Testing
-The model is based on Openpcdet framework. Here is the detail process. 
+The model is based on Openpcdet framework. Here is the detail process. For dataset access or questions, please contact us at: lliu148@jh.edu.
 ### Customized Training Dataset Preparing
 
 To generate customized NuScenes subsets (e.g., for specific scenes or categories), run the following commands for each subset:
@@ -56,7 +56,7 @@ python create_custom_nuscenes_info.py \ --cfg_file tools/cfgs/dataset_configs/nu
 
 These commands will generate .pkl info files based on the specified scenes. 
 
-The construction methods for the three subsets (e.g., `VEE_dataset.txt`, `APE_dataset.txt`, and `LPE_dataset.txt`) are detailed in the EMC2 paper. For access to the corresponding `.txt` files, feel free to reach out via email: lliu148@jh.edu.
+The construction methods for the three subsets (e.g., `VEE_dataset.txt`, `APE_dataset.txt`, and `LPE_dataset.txt`) are detailed in the EMC2 paper. For access to these files, feel free to reach out via email.
 
 <!-- You can later load them by updating the dataset INFO_PATH in the config file accordingly. -->
 
