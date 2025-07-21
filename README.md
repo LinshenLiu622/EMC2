@@ -60,11 +60,11 @@ These commands will generate .pkl info files based on the specified scenes.
 The construction methods for the three subsets (e.g., `VEE_dataset.txt`, `APE_dataset.txt`, and `LPE_dataset.txt`) are detailed in the EMC2 paper. For access to these files, feel free to reach out via email.
 
 ### Training Process
-Models training. 
-<pre> python train/train_EMC2.py 
-</pre>
+After generating the customized NuScenes info files, you can begin training the EMC2 model using the following command:
+<pre> python train/train_EMC2.py </pre>
 
 ### Testing Process
+Once training is complete, you can evaluate the model on the corresponding validation or test split using:
 <pre>python test/test_EMC2.py</pre> 
 
 <!-- You can later load them by updating the dataset INFO_PATH in the config file accordingly. -->
