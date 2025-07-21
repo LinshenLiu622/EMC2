@@ -29,8 +29,9 @@ This paper presents Edge-based Mixture of Experts (MoE) Collaborative Computing 
 <!-- 4 here is the installation requirement  -->   
 <!-- ## Requirements -->
 <!-- Requirements are provided in ``requirements.txt``. -->
+<!-- 🛠️  -->
 
-## 🛠️ Requirements
+## Requirements
 
 We build our project upon [OpenPCDet v0.5.2](https://github.com/open-mmlab/OpenPCDet). Please follow the official instructions to install it first, including CUDA-compatible PyTorch and `spconv`.
 
@@ -57,6 +58,15 @@ python create_custom_nuscenes_info.py \ --cfg_file tools/cfgs/dataset_configs/nu
 These commands will generate .pkl info files based on the specified scenes. 
 
 The construction methods for the three subsets (e.g., `VEE_dataset.txt`, `APE_dataset.txt`, and `LPE_dataset.txt`) are detailed in the EMC2 paper. For access to these files, feel free to reach out via email.
+
+### Training Process
+Models training. 
+
+
+
+
+### Testing Process
+Models testing.  
 
 <!-- You can later load them by updating the dataset INFO_PATH in the config file accordingly. -->
 
