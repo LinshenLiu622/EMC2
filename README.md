@@ -36,8 +36,9 @@ We build our project upon [OpenPCDet v0.5.2](https://github.com/open-mmlab/OpenP
 
 Once OpenPCDet is installed, you can install additional dependencies by running:
 
-```bash
-pip install -r requirements.txt
+<!-- ```bash
+pip install -r requirements.txt -->
+<pre> ```bash pip install -r requirements.txt ``` </pre>
 
 
 <!-- 5 here is training and installation code  -->   
