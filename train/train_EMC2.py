@@ -20,7 +20,7 @@ from train_utils.train_utils import train_model
 
 def parse_config():
     parser = argparse.ArgumentParser(description='arg parser')
-    parser.add_argument('--cfg_file', type=str, default='/home/admin/Desktop/lliu/openpcdet/OpenPCDet/tools/cfgs/nuscenes_models/cbgs_voxel0075_voxelnext.yaml', help='specify the config for training')
+    parser.add_argument('--cfg_file', type=str, default='/home/admin/Desktop/lliu/openpcdet/OpenPCDet/tools/cfgs/nuscenes_models/EMC2.yaml', help='specify the config for training')
 
     parser.add_argument('--batch_size', type=int, default=8, required=False, help='batch size for training')
     parser.add_argument('--epochs', type=int, default=80, required=False, help='number of epochs to train for')
