@@ -1,29 +1,28 @@
-# 忽略 Python 编译文件
-*.pyc
-__pycache__/
+# ignore python compilar file 
+# *.pyc
+# __pycache__/
 
-# 忽略 Jupyter Notebook 缓存
-.ipynb_checkpoints/
 
-# 忽略日志文件
-*.log
 
-# # 忽略 VSCode 配置
+# ignore log file 
+# *.log
+
+# # ignore VSCode setting
 # .vscode/
 
-# 忽略数据文件
+# ignore dataset file 
 # data/
 # *.csv
 # *.json
 
-# 忽略模型文件
+# ignore pth file 
 # *.pt
 # *.pth
 # checkpoints/
 
-# 忽略环境文件
-.env
-venv/
+# ignore document file 
+# .env
+# venv/
 
-# 忽略准备文件
+# ignore prepare file
 EMC2_prepare/ 
