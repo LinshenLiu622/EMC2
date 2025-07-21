@@ -38,7 +38,7 @@ Once OpenPCDet is installed, you can install additional dependencies by running:
 
 <!-- ```bash
 pip install -r requirements.txt -->
-<pre> ```bash pip install -r requirements.txt ``` </pre>
+<pre> pip install -r requirements.txt </pre>
 
 
 <!-- 5 here is training and installation code  -->   
