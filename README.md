@@ -27,8 +27,18 @@ This paper presents Edge-based Mixture of Experts (MoE) Collaborative Computing 
 
 
 <!-- 4 here is the installation requirement  -->   
-## Requirements
-Requirements are provided in ``requirements.txt``.
+<!-- ## Requirements -->
+<!-- Requirements are provided in ``requirements.txt``. -->
+
+## 🛠️ Requirements
+
+We build our project upon [OpenPCDet v0.5.2](https://github.com/open-mmlab/OpenPCDet). Please follow the official instructions to install it first, including CUDA-compatible PyTorch and `spconv`.
+
+Once OpenPCDet is installed, you can install additional dependencies by running:
+
+```bash
+pip install -r requirements.txt
+
 
 <!-- 5 here is training and installation code  -->   
 ## Model Training and Testing
