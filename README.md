@@ -44,6 +44,13 @@ pip install -r requirements.txt -->
 <!-- 5 here is training and installation code  -->   
 ## Model Training and Testing
 The model is based on Openpcdet framework. Here is the detail process. 
+### Subdataset Preparing
+
+To generate customized NuScenes subsets (e.g., for specific scenes or categories), run the following commands for each subset:
+
+<pre> python create_custom_nuscenes_info.py \ --cfg_file tools/cfgs/dataset_configs/nuscenes_dataset.yaml \ --version v1.0-trainval-custom \ --scene_list VEE_dataset.txt </pre> <pre> python create_custom_nuscenes_info.py \ --cfg_file tools/cfgs/dataset_configs/nuscenes_dataset.yaml \ --version v1.0-trainval-custom \ --scene_list APE_dataset.txt </pre> <pre> python create_custom_nuscenes_info.py \ --cfg_file tools/cfgs/dataset_configs/nuscenes_dataset.yaml \ --version v1.0-trainval-custom \ --scene_list LPE_dataset.txt </pre>
+These commands will generate .pkl info files based on the specified scenes.
+You can later load them by updating the dataset INFO_PATH in the config file accordingly.
 
 <!-- 5.1 Please Add the (1) installation process, (2)    -->   
 
